@@ -19,9 +19,8 @@
     height: 800px;
 
 }
-.banner-info{
-   
-}
+
+.banner-info {}
 
 .description {
     width: 634px;
@@ -45,4 +44,76 @@
     border: none;
     background-color: red;
     color: white;
+}
+
+/* feature section */
+.fe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature-bg {
+    width: 1920px;
+    height: 4867px;
+}
+
+.box-container {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 1920px;
+    height: 4867px;
+    gap: 24px;
+    margin-left:240px ;
+    margin-right: 240px;
+    position: relative;
+    
+}
+.box{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.box-2{
+ background-color: rgba(5, 151, 160, 0.15);
+
+}
+.box-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.img-1{
+    width: 310px;
+    height: 428px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.img-2{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.img-3{
+    width: 314px;
+    height: 471px;
+    position: absolute;
+    bottom: 0px;
 }
