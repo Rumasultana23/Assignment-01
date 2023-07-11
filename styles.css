@@ -20,8 +20,6 @@
 
 }
 
-.banner-info {}
-
 .description {
     width: 634px;
     font-size: 18px;
@@ -47,11 +45,13 @@
 }
 
 /* feature section */
-.fe-title {
+.fe-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 24px;
 }
 
 .fe-description {
@@ -60,11 +60,12 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 48px;
 }
 
 .feature-bg {
-    width: 1920px;
-    height: 4867px;
+    height: 100vh;
+    background-color: #FFF;
 }
 
 .box-container {
@@ -73,12 +74,13 @@
     width: 1920px;
     height: 4867px;
     gap: 24px;
-    margin-left:240px ;
+    margin-left: 240px;
     margin-right: 240px;
     position: relative;
-    
+
 }
-.box{
+
+.box {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -87,33 +89,100 @@
     position: inherit;
     background-color: rgba(167, 33, 98, 0.15);
 }
-.box-2{
- background-color: rgba(5, 151, 160, 0.15);
+
+.box-2 {
+    background-color: rgba(5, 151, 160, 0.15);
 
 }
-.box-3{
+
+.box-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
 
-.img-1{
+.img-1 {
     width: 310px;
     height: 428px;
     position: absolute;
     bottom: 0px;
-    
+
 }
 
-.img-2{
+.img-2 {
     width: 370px;
     height: 370px;
     position: absolute;
     bottom: 0px;
-    
+
 }
 
-.img-3{
+.img-3 {
     width: 314px;
     height: 471px;
     position: absolute;
     bottom: 0px;
 }
+
+/* delivery section */
+
+.delivery {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    width: 1440px;
+    height: 320px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+/* Hot Section */
+.hot-bg {
+    display: flex;
+    justify-content: center;
+    gap: 215px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 100px 100px  ;
+    align-items: center;
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hot-img {
+    width: 318px;
+    height: 420px;
+
+}
+.hot-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.primary {
+    color: red;
+}
+
+.hot-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.btn-1{
+  
+}
+/* social section */
+.social-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+/* deals section start */
