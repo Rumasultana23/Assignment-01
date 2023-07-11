@@ -49,6 +49,7 @@
 }
 
 /* feature section */
+
 .fe-title {
     color: #272727;
     text-align: center;
@@ -77,12 +78,13 @@
 .box-container {
     display: flex;
     /* justify-content: space-around; */
-    width: 1920px;
-    height: 4867px;
+    width: 100%;
+    height: 100%;
     gap: 24px;
     margin-left: 240px;
-    margin-right: 240px;
+    /* margin-right: 240px; */
     position: relative;
+    align-items: center;
 
 }
 
@@ -94,6 +96,19 @@
     justify-content: center;
     position: inherit;
     background-color: rgba(167, 33, 98, 0.15);
+}
+
+.box-title {
+    position: absolute;
+    text-decoration-line: underline;
+    bottom: -50px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
 }
 
 .box-2 {
@@ -143,9 +158,8 @@
     padding: 50px;
     margin-left: 240px;
     margin-right: 240px;
-    /* margin-top: 195px; */
+    margin-top: 195px;
     margin-bottom: 128px;
-    display: none;
 }
 
 /* Hot Section */
@@ -160,7 +174,7 @@
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
 }
 
 .hot-img {
@@ -175,7 +189,8 @@
     font-weight: 800;
     margin-bottom: 24px;
 }
-.hot-info{
+
+.hot-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,25 +259,28 @@
     height: 64px;
     font-weight: 400;
 }
+
 /* contact section */
 label {
     display: block;
     margin-bottom: 10px;
     text-align: center;
     border-radius: 8px;
-   
-   
+
+
 }
-.contact{
-    width: 1540px;
+
+.contact {
+    width: 1440px;
     height: 320px;
-    background-color: pink;
+    background-color: rgb(231, 219, 222);
     margin-left: 240px;
     margin-right: 240px;
     text-align: center;
-    
+
 }
-.text-feild{
+
+.text-feild {
     width: 500px;
     height: 40px;
 
